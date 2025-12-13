@@ -1,0 +1,46 @@
+# Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+build/
+coverage/
+
+# Android/Gradle
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+
+# iOS/Xcode
+ios/Flutter/
+ios/Pods/
+ios/build/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+macos/Flutter/ephemeral/
+macos/build/
+
+# Windows/Linux
+windows/Flutter/ephemeral/
+windows/build/
+linux/build/
+
+# Web
+web/build/
+
+# Node projects
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE/OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Models and generated outputs (keep via LFS, not build outputs)
+models/*.tmp
