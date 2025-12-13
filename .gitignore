@@ -1,41 +1,44 @@
-# Flutter
+# Flutter / Dart
 .dart_tool/
 .packages
 .flutter-plugins
 .flutter-plugins-dependencies
 pubspec.lock
-build/
 coverage/
 
-# Android/Gradle
+# Platform build outputs
+build/
+**/build/
 android/.gradle/
 android/local.properties
 android/app/build/
 android/build/
-
-# iOS/Xcode
 ios/Flutter/
 ios/Pods/
 ios/build/
 ios/Runner.xcworkspace/xcuserdata/
 ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
-
-# macOS
 macos/Flutter/ephemeral/
 macos/build/
-
-# Windows/Linux
 windows/Flutter/ephemeral/
 windows/build/
 linux/build/
 
-# Web
-web/build/
-
-# Node projects
+# Node / Web apps
 **/node_modules/
 **/dist/
 **/.vite/
+**/.parcel-cache/
+**/.next/
+**/.nuxt/
+**/.svelte-kit/
+**/.expo/
+
+# Repo-specific web bundles
+web/build/
+ast-website/build/
+assets/**/dist/
+assets/**/build/
 
 # IDE/OS
 .DS_Store
