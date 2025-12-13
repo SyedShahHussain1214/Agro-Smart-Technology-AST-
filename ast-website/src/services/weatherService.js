@@ -1,5 +1,5 @@
 // OpenWeatherMap API Service
-const OPENWEATHER_API_KEY = 'bd0a7106c8a51f1eb7d128794e741c7f';
+const OPENWEATHER_API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
 const WEATHER_API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const FORECAST_API_URL = 'https://api.openweathermap.org/data/2.5/forecast';
 

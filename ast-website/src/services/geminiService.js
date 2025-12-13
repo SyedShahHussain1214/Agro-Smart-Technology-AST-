@@ -1,5 +1,5 @@
 // Gemini AI Service for Voice Q&A
-const GEMINI_API_KEY = 'AIzaSyCMiwIbXChxDow0QyVzAbyoSFUSi8q5pC8';
+const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${GEMINI_API_KEY}`;
 
 export const sendToGemini = async (query, conversationHistory = []) => {

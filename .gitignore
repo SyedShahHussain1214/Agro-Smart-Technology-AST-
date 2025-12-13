@@ -45,5 +45,11 @@ assets/**/build/
 Thumbs.db
 .vscode/
 
+# API Keys and sensitive files
+assets/openweather and opai APIs.txt
+**/*.env
+**/.env
+**/.env.local
+
 # Models and generated outputs (keep via LFS, not build outputs)
 models/*.tmp
