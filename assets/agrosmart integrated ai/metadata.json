@@ -1,0 +1,9 @@
+{
+  "name": "AgroSmart Integrated AI",
+  "description": "An intelligent agricultural assistant combining OpenAI, Gemini 2.5, and OpenWeather APIs for crop management and disease detection.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

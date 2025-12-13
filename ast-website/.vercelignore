@@ -1,0 +1,27 @@
+# Ignore all parent directory files except what's needed
+../android
+../build
+../ios
+../linux
+../macos
+../windows
+../.dart_tool
+../test
+../*.apk
+../*.so
+../*.aab
+
+# Ignore large files
+*.apk
+*.so
+*.aab
+*.ipa
+*.dms
+*.dmg
+
+# Keep only website source
+!src/**
+!public/**
+!build/**
+!package.json
+!package-lock.json

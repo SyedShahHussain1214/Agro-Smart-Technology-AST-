@@ -1,0 +1,9 @@
+{
+  "name": "Agro Smart Technology (AST)",
+  "description": "A voice-assisted agricultural platform for Pakistani farmers featuring pest detection, market prices, and weather updates.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

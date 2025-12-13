@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy AST to Vercel</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .urdu {
+            font-family: 'Jameel Noori Nastaleeq', 'Noto Nastaliq Urdu', serif;
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        .deploy-btn {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.4);
+            margin: 20px 0;
+        }
+        .deploy-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(40, 167, 69, 0.6);
+        }
+        .step {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        .step h3 {
+            margin-top: 0;
+            color: #4ade80;
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .feature::before {
+            content: "✅";
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Deploy AST Website</h1>
+        <p class="urdu">اپنی ویب سائٹ کو لائیو کریں</p>
+        
+        <a href="https://vercel.com/new/clone?repository-url=https://github.com/SyedShahHussain1214/Agro-Smart-Technology-AST-&project-name=agro-smart-technology&repository-name=agro-smart-technology&root-directory=ast-website" 
+           class="deploy-btn" target="_blank">
+            ⚡ Deploy to Vercel (1-Click)
+        </a>
+
+        <div class="step">
+            <h3>📱 Mobile Optimizations Completed:</h3>
+            <div class="feature">Responsive hamburger menu for mobile navigation</div>
+            <div class="feature">Touch-friendly buttons and interactive elements</div>
+            <div class="feature">Optimized font sizes for mobile screens</div>
+            <div class="feature">Mobile-friendly hero section and features</div>
+            <div class="feature">Responsive footer with all information</div>
+            <div class="feature">Perfect viewing on phones and tablets</div>
+        </div>
+
+        <div class="step">
+            <h3>🌐 After Deployment:</h3>
+            <p><strong>1. Your Live URL:</strong> <code>https://agro-smart-technology.vercel.app</code></p>
+            <p><strong>2. Add Environment Variables:</strong> Go to Vercel Dashboard → Settings → Environment Variables</p>
+            <p>Add these keys:</p>
+            <ul>
+                <li><code>REACT_APP_GEMINI_API_KEY</code></li>
+                <li><code>REACT_APP_OPENAI_API_KEY</code></li>
+                <li><code>REACT_APP_OPENWEATHER_API_KEY</code></li>
+            </ul>
+            <p><strong>3. Redeploy:</strong> Vercel will automatically rebuild with API keys</p>
+        </div>
+
+        <div class="step">
+            <h3>📤 Share with Teachers & Friends:</h3>
+            <p>Once live, share this message:</p>
+            <blockquote style="background: rgba(0,0,0,0.2); padding: 15px; border-left: 4px solid #28a745; margin: 10px 0;">
+                "🌾 Check out our FYP: Agro Smart Technology!<br>
+                AI-powered farming assistant for Pakistani farmers<br>
+                👉 [Your Live URL]<br>
+                Works on all devices! 📱💻<br><br>
+                - Syed Shah Hussain & Malik Abdul Rehman<br>
+                UMT Lahore, FYP 2024-25"
+            </blockquote>
+        </div>
+
+        <div class="step">
+            <h3>🎓 Project Details:</h3>
+            <p><strong>Supervisor:</strong> Miss Saima Safdar (Lecturer, UMT)</p>
+            <p><strong>Students:</strong></p>
+            <ul>
+                <li>Syed Shah Hussain (S2024387008)</li>
+                <li>Malik Abdul Rehman (S2024387002)</li>
+            </ul>
+            <p><strong>University:</strong> The College of Art, Science & Technology, UMT Lahore</p>
+            <p><strong>Academic Year:</strong> 2024-2025</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px; opacity: 0.8;">
+            <p>Built with ❤️ for Pakistani Farmers</p>
+            <p style="font-family: 'Noto Nastaliq Urdu', serif;">پاکستانی کسانوں کے لیے محبت سے بنایا گیا</p>
+        </div>
+    </div>
+</body>
+</html>

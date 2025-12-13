@@ -1,0 +1,203 @@
+Agro Smart Technology (AST) By
+
+SYED SHAH HUSSAIN & MALIK ABDUL REHMAN
+
+
+SUPERVISOR
+MISS SAIMA SAFDAR
+Lecturer
+                                                
+The College of Art Science and Technology, UMT
+
+
+
+
+
+
+
+          _________________________________________________________________________
+
+The College of Art, Science & Technology
+University of Management & Technology
+2025
+
+Title: Agro Smart Technology. (AST)
+
+
+
+
+
+Candidate:			
+			Name: Malik Abdul Rehman, Syed Shah Hussain
+                                         Roll No: S2024387002, S2024387008
+
+
+Place of Work:	
+
+                                   The College of Art, Science & Technology
+                                    University of Management & Technology
+
+
+
+
+
+
+
+
+
+
+
+
+CONTENTS
+
+Sr. No.	Title	Page No.
+1.		List of Abbreviations 	4
+2.		Abstract 	5
+3.		Introduction  	5
+4.		Problem Statement	6
+5.		Objectives                               	6
+6.		Review of Literature               	7
+7.		Scope	9
+8.		Methods	10
+9.		References	12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIST OF ABBREVIATIONS
+
+1.	AST – Agro Smart Technology
+2.	IoT – Internet of Things
+3.	ICT – Information and Communication Technology
+4.	IPM – Integrated Pest Management
+5.	ASR – Automatic Speech Recognition
+6.	NLP – Natural Language Processing
+7.	CNN – Convolutional Neural Network
+8.	ML – Machine Learning
+9.	API – Application Programming Interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ABSTRACT
+Agro Smart Technology (AST) is a multilingual (primarily Urdu + English) voice-assisted web and mobile platform designed specifically for Pakistani smallholder farmers, most of whom have low literacy and limited access to smartphones or internet. The platform will provide voice-based guidance on modern farming techniques, pest identification and control, weather updates, market prices, government schemes, and direct buyer-seller connection through a digital marketplace. By using speech-to-text, text-to-speech, and offline-capable AI models in Urdu and regional languages, AST aims to bridge the digital and knowledge divide, reduce unnecessary pesticide use, increase yield, and improve farmers’ income. The proposed system will be built using React.js/Node.js (web), Flutter (mobile), Google Cloud Speech-to-Text / Mozilla DeepSpeech (Urdu ASR), ElevenLabs / open-source Urdu TTS, TensorFlow Lite for on-device disease detection, and Firebase as backend. This project directly contributes to sustainable agriculture and digital inclusion in rural Pakistan.
+INTRODUCTION
+Pakistan is an agrarian economy where more than 42% of the labour force is engaged in agriculture and approximately 68% of the rural population depends on it for livelihood. However, most small farmers (average landholding < 5 acres) still rely on traditional methods, have little or no access to timely and trustworthy information, and face severe losses due to pests, wrong pesticide usage, lack of market linkage, and climate variability.
+Low literacy rates (especially in rural areas ~45–55%) and difficulty in reading/writing make conventional text-heavy agricultural apps and websites unusable for the majority. Even when smartphones are available, complex interfaces and English/Hindi content create additional barriers. As a result, farmers either overuse harmful chemicals (Pakistan is among the highest per-hectare pesticide consumers in South Asia) or lose crops due to delayed pest detection.
+Recent advancements in Urdu speech recognition, offline AI models, and affordable cloud services now make it possible to build voice-first agricultural advisory systems. Agro Smart Technology (AST) is proposed as an easy-to-use, voice-controlled platform that will allow farmers to simply speak in Urdu (or Punjabi/Sindhi in future phases) and receive instant voice answers about crop care, pest management, current mandi rates, weather, and buying/selling produce — all without typing or reading.
+
+PROBLEM STATEMENT
+Pakistani farmers face the following critical challenges:
+Low literacy and digital illiteracy make existing agricultural apps/websites inaccessible.
+Over-dependence on middlemen and lack of real-time market price information leads to exploitation and low income.
+Excessive and uninformed use of pesticides causing health hazards, environmental damage, and development of pest resistance.
+Delayed or no access to authentic information on modern farming techniques, weather forecasts, and government subsidies.
+Absence of affordable, Urdu voice-enabled technology tailored for rural Pakistani farmers.
+Because of these issues, Pakistan’s average crop yields remain 30–50% lower than global standards, and farmers continue to remain trapped in poverty. There is an urgent need for a voice-first, local-language agricultural assistant that works even on low-end smartphones and intermittent internet 
+AIMS AND OBJECTIVES
+Aim to design and develop “Agro Smart Technology (AST)”, a voice-assisted agricultural advisory and digital marketplace platform in Urdu to empower smallholder farmers of Pakistan.
+Specific Objectives
+To provide accurate, voice-based guidance on pest identification, Integrated Pest Management (IPM), and safe pesticide use.
+To deliver real-time weather forecasts, market prices, and government scheme information in spoken Urdu.
+To enable crop disease detection through voice-described symptoms or photo upload with voice instructions.
+To create a digital marketplace where farmers can directly list and sell produce using only voice commands.
+To ensure the platform works offline for core features and supports low-literacy users completely through voice interaction.
+REVIEW OF LITERATURE
+The foundation of this project is built on recent research in smart agriculture, voice-enabled systems for low-literacy users, pest management, and digital inclusion in developing countries. Key references include:
+Kumar :  IoT is transforming agriculture through applications like smart irrigation, precision farming, and pest management, which enhance efficiency and sustainability. Sensor-based monitoring provides real-time data on environmental factors, enabling optimized resource use, reducing waste, and supporting eco-friendly practices. Benefits include improved decision-making, cost savings, better livestock health, and streamlined supply chains. Despite challenges such as connectivity and costs, IoT addresses global issues like climate change and resource scarcity, requiring continued research and collaboration among stakeholders to realize its full potential. (Kumar, 2024)
+
+Zhou: Integrated Pest Management (IPM) is a sustainable strategy for crop protection that combines cultural, biological, genetic, and targeted chemical methods to reduce pesticide use and enhance productivity while protecting ecosystems. This review highlights innovations over the past five years in biological control, biopesticides, and nanotechnology for efficient pesticide application. It examines literature on IPM's benefits, including environmental biodiversity, economic savings, and food safety, alongside challenges such as resistance management and adoption hurdles. Ultimately, IPM's interdisciplinary approach is essential for agriculture's resilience against climate change and biodiversity loss, necessitating collaboration, policy support, and ongoing research. (Zhou, 2024)
+
+Ferentinos: Convolutional neural networks (CNNs) were developed for automated plant disease detection using a dataset of 87,848 leaf images from 25 plant species, achieving 100% training accuracy. The best model reached 99.53% accuracy on an unseen test set, demonstrating effectiveness in both lab and real-field conditions. This positions the model as a valuable tool for early warning in agriculture, with potential applications in mobile apps and autonomous vehicles. Future enhancements are needed for robustness in uncontrolled environments and development of comprehensive disease management systems. (Ferentinos, 2018)
+
+Prince Henry: Prince Henry’s work discusses voice-controlled farm management systems that empower 500 million smallholder farmers lacking literacy skills. By using voice commands in local languages, these systems simplify tasks like irrigation, livestock monitoring, and market checking. Built on a five-layer framework, they outperform traditional apps in accessibility and multitasking. Pilot projects in various regions demonstrate higher adoption rates among low-literacy users. Despite challenges like accent variability and connectivity, advances in edge AI and blockchain promise improved efficiency and affordability. Ultimately, these systems bridge the digital divide and enhance food security for future generations. (Henry, 2025)
+
+Bonephace: A survey of 300 farmers in Tanzania’s Mara Region revealed low awareness of agricultural information services, with 93.2% lacking knowledge and 91.3% needing better seeds. Low ICT usage was noted in 60% of respondents. Farmers primarily obtained information from colleagues, radio, and extension officers, while print media and advanced ICTs were underutilized due to cost and availability issues. The study calls for improved awareness, access, and ICT strategies, and recommends enhancing farmer education, stakeholder involvement, and government initiatives to boost incomes and reduce the digital divide. (Bonephace E. M., 2022)
+
+Mukherjee: Sushmita Mukherjee's 2011 paper examines the role of Information and Communication Technology (ICT) in enhancing rural development in India, where many villages struggle despite various poverty alleviation schemes. Historical initiatives, like the Radio Farm Forum and the SITE satellite TV project, initially showed promise but eventually failed due to neglect and indifference. While successes like the Computerization of Land Records highlight ICT's potential to empower farmers, significant barriers remain, including illiteracy, unreliable power, and insufficient infrastructure. Mukherjee argues that prioritizing education and local-language training is essential for effective technology adoption to achieve inclusive rural prosperity. (Mukherjee, 2011)
+
+Konoplyannikova: This study explores the evolution of digital marketing strategies for agricultural enterprises on social media, highlighting their impact on online presence, engagement, and revenue through methods like content marketing and targeted ads. Using a multi-method approach involving case studies, surveys, interviews, and econometric modeling, it demonstrates significant financial benefits from digital marketing investments. Recommendations include tailored content and technology integration. The research contributes valuable insights for both practitioners and scholars, and suggests further investigation into external factors and broader datasets for future studies. (Konoplyannikova, 2024)
+
+SCOPE
+The scope of the project includes:
+Development of a fully functional web + Android application with Urdu voice interface.
+Core modules:
+Voice Q&A on crops, pests, fertilizers, and weather
+Image-based crop disease detection with voice guidance
+Real-time mandi prices (integrated via open APIs or scraping)
+Simple voice-enabled buy/sell marketplace
+Offline capability for disease detection and basic Q&A
+Support for Urdu and Roman Urdu; future versions can add Punjabi, Sindhi, Pashto.
+Target users: Small farmers of Punjab and Sindh (initial deployment).
+Testing with at least 50 real farmers in Lahore and nearby villages.
+Out of scope (Exclusions): 
+Full iOS app, drone integration, IoT hardware sensors, blockchain-based payments.
+
+MATERIALS AND METHODS / METHODOLOGY
+Frontend
+Web: React.js + Tailwind CSS
+Mobile: Flutter (single codebase for Android & future iOS)
+Voice UI: Web Speech API (browser) + Flutter TTS/STT plugins
+Speech Recognition (Urdu)
+Primary: Google Cloud Speech-to-Text (Urdu model)
+Offline fallback: Mozilla DeepSpeech + custom-trained Urdu model or Vosk
+Text-to-Speech (Urdu)
+ElevenLabs Urdu voice (high quality) or open-source Coqui TTS / Piper Urdu models
+Disease Detection Module
+TensorFlow Lite model based on Ferentinos (2018) architecture, converted for mobile
+Additional fine-tuning on local Pakistani crop diseases (cotton, rice, wheat, sugarcane)
+Backend & Database
+Node.js + Express
+Firebase Firestore (real-time database) + Firebase Storage
+Firebase Authentication (phone number based)
+Market Price Integration
+Web scraping of Pakistan Agricultural Marketing Information Service (PAMIS) or open APIs
+Offline Functionality
+On-device ML models (TensorFlow Lite)
+Pre-cached common voice questions/answers using Realm/local SQLite
+Development Tools
+Visual Studio Code, Android Studio, Git/GitHub
+Figma for UI/UX prototyping
+Postman for API testing
+Testing
+Unit & integration testing (Jest, Flutter test)
+Usability testing with real farmers (think-aloud protocol in Urdu)
+Deployment
+Web: Vercel / Netlify
+Android: Google Play Store (internal + open testing)
+
+References
+•	Bonephace, E. M. (2022). Assessment of awareness of Farmers on agricultural information services in Mara Region, Tanzania.
+•	Bonephace, J. (2022). Farmers’ Awareness of Agricultural Information Services in Tanzania.
+•	Ferentinos, K. P. (2018). Deep learning models for plant disease detection and diagnosis.
+•	Henry, P. (2025). Voice-controlled farm managemnet systems for farmers.
+•	Konoplyannikova, M. R. (2024). Digital marketing and communication strategies of agri-food enterprises on social media platforms.
+•	Kumar, V. S. (2024). A comprehensive review on smart and sustainable agriculture using IoT technologies .
+•	Mukherjee, S. (2011). Application of ICT in rural development: Opportunities and challenges.
+•	Zhou, W. A. (2024). Intergrated pest management: an update on the sustainability approach to crop protection.
+
+
+

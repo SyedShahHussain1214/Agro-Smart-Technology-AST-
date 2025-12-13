@@ -1,0 +1,8 @@
+{
+  "name": "AgroSmartVoice Assistant",
+  "description": "A dynamic voice AI assistant for farmers providing real-time weather updates and local crop market rates using Gemini Live API and Google Search Grounding.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
