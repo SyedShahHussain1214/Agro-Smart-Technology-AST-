@@ -10,6 +10,18 @@ Supervisor: Miss Saima Safdar
 
 Institution: The College of Art, Science & Technology, University of Management & Technology
 
+---
+
+## 🚀 Quick Start for Developers
+
+**New to this project? Start here:**
+
+👉 **[READ THE SETUP GUIDE](SETUP.md)** - Complete instructions for cloning and running the project
+
+**Important:** This repository uses Git LFS for large model files. Make sure to install Git LFS before cloning!
+
+---
+
 Executive Summary
 
 I developed Agro Smart Technology (AST), a comprehensive multilingual agricultural platform designed to revolutionize how Pakistani farmers access agricultural information and market opportunities. This project addresses the critical challenge of low literacy rates (45-55% in rural areas) and digital exclusion faced by Pakistan's 42% agricultural workforce through an innovative voice-first, AI-powered solution.

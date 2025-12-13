@@ -43,7 +43,8 @@ assets/**/build/
 # IDE/OS
 .DS_Store
 Thumbs.db
-.vscode/
+.vscode/launch.json
+.vscode/settings.json
 
 # API Keys and sensitive files
 assets/openweather and opai APIs.txt
