@@ -22,6 +22,12 @@ npm install -g vercel
 
 ## Step 2: Deploy via Vercel Dashboard (Recommended)
 
+### ⚠️ Important: Project Naming
+
+Vercel requires **lowercase** project names. When configuring your project:
+- ✅ Use: `agro-smart-technology-ast`
+- ❌ Don't use: `Agro-Smart-Technology-AST-` (has uppercase and trailing dash)
+
 ### 2.1 Connect GitHub Repository
 
 1. Go to https://vercel.com/dashboard
@@ -95,7 +101,7 @@ Follow the prompts:
 - **Set up and deploy:** Yes
 - **Which scope:** Your account
 - **Link to existing project:** No
-- **Project name:** (Press enter for default or type custom name)
+- **Project name:** `agro-smart-technology-ast` (lowercase, no trailing dash)
 - **Directory:** `./` (current directory)
 - **Override settings:** No
 
@@ -320,8 +326,8 @@ Enable in **Settings** → **Notifications**:
 
 After deploying, you'll get:
 
-- **Production:** `https://your-project.vercel.app`
-- **Preview:** `https://your-project-git-branch.vercel.app` (for each branch)
+- **Production:** `https://agro-smart-technology-ast.vercel.app`
+- **Preview:** `https://agro-smart-technology-ast-git-branch.vercel.app` (for each branch)
 - **Custom Domain:** `https://yourdomain.com` (if configured)
 
 Share these URLs with your team and users! 🚀

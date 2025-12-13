@@ -1,10 +1,21 @@
 # 🚀 Quick Deploy to Vercel
 
+## ⚠️ Important: Project Name
+
+Vercel requires **lowercase** project names. When prompted, use:
+```
+agro-smart-technology-ast
+```
+(No uppercase letters, no trailing dash)
+
+---
+
 ## Option 1: Deploy via Dashboard (5 minutes)
 
 1. **Go to:** https://vercel.com/new
 2. **Import Git Repository:** Select `Agro-Smart-Technology-AST-`
-3. **Root Directory:** `ast-website`
+3. **Project Name:** Change to `agro-smart-technology-ast` (lowercase, no trailing dash)
+4. **Root Directory:** `ast-website`
 4. **Add Environment Variables:**
    ```
    REACT_APP_GEMINI_API_KEY = your_key_here
