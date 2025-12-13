@@ -731,8 +731,8 @@ class _WeatherScreenState extends State<WeatherScreen> {
   bool loading = false;
   String city = 'Lahore';
 
-  // OpenWeatherMap API - Working API key from website
-  final String apiKey = 'bd0a7106c8a51f1eb7d128794e741c7f';
+  // OpenWeatherMap API - Get from environment variable
+  final String apiKey = const String.fromEnvironment('OPENWEATHER_API_KEY', defaultValue: '');
 
   Future<void> fetchWeather() async {
     setState(() => loading = true);
@@ -1146,8 +1146,8 @@ class _DiseaseDetectionScreenState extends State<DiseaseDetectionScreen> {
   String result = '';
   bool loading = false;
   
-  // Gemini API key from website
-  final String geminiApiKey = 'AIzaSyD97jvMjFON3nDE3E0JcZzC8Wgkqg0HGKA';
+  // Gemini API key from environment variable
+  final String geminiApiKey = const String.fromEnvironment('GEMINI_API_KEY', defaultValue: '');
 
   Future<void> pickImage(ImageSource source) async {
     final picker = ImagePicker();
@@ -1398,8 +1398,8 @@ class _VoiceQAScreenState extends State<VoiceQAScreen> {
   String response = '';
   bool loading = false;
 
-  // OpenAI API - Working API key from website
-  final String openAiKey = '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';
+  // OpenAI API - Get from environment variable
+  final String openAiKey = const String.fromEnvironment('OPENAI_API_KEY', defaultValue: '');
   
   List<Map<String, String>> _conversationHistory = [];
 
