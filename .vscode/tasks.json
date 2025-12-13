@@ -15,6 +15,48 @@
 			"isBackground": false,
 			"problemMatcher": [],
 			"group": "build"
+		},
+		{
+			"label": "LFS migrate",
+			"type": "shell",
+			"command": "cd /d C:\\Users\\zam\\OneDrive\\Documents\\GitHub\\Agro-Smart-Technology-AST- && git lfs migrate import --everything --include=\"assets/models/dataset/**,*.tflite,*.pb,*.onnx,*.bin\"",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "LFS migrate",
+			"type": "shell",
+			"command": "cd /d C:\\Users\\zam\\OneDrive\\Documents\\GitHub\\Agro-Smart-Technology-AST-; git lfs migrate import --everything --include=\"assets/models/dataset/**,*.tflite,*.pb,*.onnx,*.bin\"",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "LFS migrate cmd",
+			"type": "shell",
+			"command": "cmd /c \"cd /d C:\\Users\\zam\\OneDrive\\Documents\\GitHub\\Agro-Smart-Technology-AST- && git lfs migrate import --everything --include=\\\"assets/models/dataset/**,*.tflite,*.pb,*.onnx,*.bin\\\"\"",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "LFS migrate literal",
+			"type": "shell",
+			"command": "cmd /c 'cd /d C:\\Users\\zam\\OneDrive\\Documents\\GitHub\\Agro-Smart-Technology-AST- && git lfs migrate import --everything --include=\"assets/models/dataset/**,*.tflite,*.pb,*.onnx,*.bin\"'",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Git push force",
+			"type": "shell",
+			"command": "cmd /c \"cd /d C:\\Users\\zam\\OneDrive\\Documents\\GitHub\\Agro-Smart-Technology-AST- && git push --force-with-lease origin main\"",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Git push force literal",
+			"type": "shell",
+			"command": "cmd /c 'cd /d C:\\Users\\zam\\OneDrive\\Documents\\GitHub\\Agro-Smart-Technology-AST- && git push --force-with-lease origin main'",
+			"isBackground": false,
+			"group": "build"
 		}
 	]
 }
