@@ -374,7 +374,7 @@ class _VoiceQAScreenState extends State<VoiceQAScreen> {
   String _spokenText = '';
   String _response = '';
   bool _loading = false;
-  final String _openAiKey = 'sk-your-openai-key'; // Replace with your key
+  final String _openAiKey = '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';
   List<Map<String, String>> _conversationHistory = [];
 
   @override

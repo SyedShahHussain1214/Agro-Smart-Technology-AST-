@@ -82,7 +82,7 @@ Open the `.env` file and replace the placeholder values with your actual API key
 ```env
 REACT_APP_GEMINI_API_KEY=your_actual_gemini_api_key_here
 REACT_APP_OPENWEATHER_API_KEY=your_actual_openweather_api_key_here
-REACT_APP_OPENAI_API_KEY=your_actual_openai_api_key_here
+REACT_APP_OPENAI_API_KEY=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
 ```
 
 **⚠️ Important:** Never commit the `.env` file! It's already in `.gitignore`.
@@ -119,13 +119,13 @@ You need to pass API keys as build arguments:
 flutter run \
   --dart-define=OPENWEATHER_API_KEY=your_openweather_api_key \
   --dart-define=GEMINI_API_KEY=your_gemini_api_key \
-  --dart-define=OPENAI_API_KEY=your_openai_api_key
+  --dart-define=OPENAI_API_KEY=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
 ```
 
 **For Windows PowerShell (no backslashes):**
 
 ```powershell
-flutter run --dart-define=OPENWEATHER_API_KEY=your_openweather_api_key --dart-define=GEMINI_API_KEY=your_gemini_api_key --dart-define=OPENAI_API_KEY=your_openai_api_key
+flutter run --dart-define=OPENWEATHER_API_KEY=your_openweather_api_key --dart-define=GEMINI_API_KEY=your_gemini_api_key --dart-define=OPENAI_API_KEY=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
 ```
 
 ### 4. Create a launch configuration (Optional but recommended)
@@ -143,7 +143,7 @@ Create `.vscode/launch.json` in the root directory:
       "args": [
         "--dart-define=OPENWEATHER_API_KEY=your_openweather_api_key",
         "--dart-define=GEMINI_API_KEY=your_gemini_api_key",
-        "--dart-define=OPENAI_API_KEY=your_openai_api_key"
+        "--dart-define=OPENAI_API_KEY=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"
       ]
     }
   ]

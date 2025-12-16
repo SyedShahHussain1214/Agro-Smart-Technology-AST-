@@ -911,7 +911,7 @@ class _VoiceQAScreenState extends State<VoiceQAScreen> {
 
   // OpenAI API - Get key from: https://platform.openai.com/api-keys
   // From your old project: OPENAI_KEY=sk-proj-... in .env file
-  final String openAiKey = 'YOUR_OPENAI_API_KEY';  // TODO: Add your key from .env file
+  final String openAiKey = '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';
   
   List<Map<String, String>> _conversationHistory = [];
 

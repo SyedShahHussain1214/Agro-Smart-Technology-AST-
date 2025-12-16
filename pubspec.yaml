@@ -10,6 +10,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # State Management
+  provider: ^6.1.2
+
+  # Fonts
+  google_fonts: ^6.2.1
+
   # Voice & AI
   flutter_tts: ^4.2.3
   speech_to_text: ^7.3.0
@@ -57,6 +63,9 @@ flutter:
     - assets/images/Digital Farmer Marketplace.jpg
     - assets/images/Accurate Weather Forecast.jpg
     - assets/images/Works Offline.webp
+    - assets/images/Real pakistani farmers using AST/
+    - assets/images/marketplace/
+    - assets/models/
     - assets/models/plant_disease_model.tflite
     - assets/models/labels.txt
 

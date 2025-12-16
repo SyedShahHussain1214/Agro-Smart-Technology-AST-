@@ -14,7 +14,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 // API Keys (same as website)
-const String OPENAI_API_KEY = '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';
+const String OPENAI_API_KEY = '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';
 const String GEMINI_API_KEY = 'AIzaSyD97jvMjFON3nDE3E0JcZzC8Wgkqg0HGKA';
 const String OPENWEATHER_API_KEY = 'bd0a7106c8a51f1eb7d128794e741c7f';
 

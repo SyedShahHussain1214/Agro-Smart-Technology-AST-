@@ -16,12 +16,14 @@
         "firebase_storage",
         "flutter",
         "flutter_tts",
+        "google_fonts",
         "hive",
         "hive_flutter",
         "http",
         "image",
         "image_picker",
         "permission_handler",
+        "provider",
         "speech_to_text",
         "tflite_flutter"
       ],
@@ -297,6 +299,25 @@
       "dependencies": [
         "flutter",
         "flutter_web_plugins"
+      ]
+    },
+    {
+      "name": "google_fonts",
+      "version": "6.3.3",
+      "dependencies": [
+        "crypto",
+        "flutter",
+        "http",
+        "path_provider"
+      ]
+    },
+    {
+      "name": "provider",
+      "version": "6.1.5+1",
+      "dependencies": [
+        "collection",
+        "flutter",
+        "nested"
       ]
     },
     {
@@ -1115,6 +1136,13 @@
         "flutter",
         "meta",
         "plugin_platform_interface"
+      ]
+    },
+    {
+      "name": "nested",
+      "version": "1.0.0",
+      "dependencies": [
+        "flutter"
       ]
     },
     {
